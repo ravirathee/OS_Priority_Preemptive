@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &n);
     printf("\nNumber of processes entered : %d\n", n);
 
-    int AT[20] = {0};                           //Arrival Time
+    int AT[20] = {0};                           //Arrival Time1
     int BT[20] = {0};                           //Burst   Time
     int P[20] = {0}, p_i = 0;                   //Priority
     int RT[20] = {0};                           //Remaining Time
